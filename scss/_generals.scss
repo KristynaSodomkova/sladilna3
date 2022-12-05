@@ -1,0 +1,28 @@
+@use 'colors';
+
+/*Common breakpoints are 
+320px — 480px for mobile devices, 
+481px — 768px for iPads & tablets, 
+769px — 1024px for small screens like laptop, 
+1025px — 1200px for large screens like Desktops, and 
+1201px and above for extra large screens like TV.*/
+
+$font-base: 'Nunito', Arial, sans-serif;
+
+/*measurements*/
+$spacer: 30px;
+
+
+* {
+  font-family: $font-base;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: colors.$primary;
+  background-color: colors.$light;
+  max-width: 100%;
+}
+

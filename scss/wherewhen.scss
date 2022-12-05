@@ -1,0 +1,29 @@
+@use 'generals';
+@use 'colors';
+
+
+@media screen and (min-width: 930px){
+  .main__wherewhen{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    .main__when{
+      grid-column: 1/2;
+    }
+    .main__where{
+      grid-column: 2/3;
+    }
+  }
+  
+  }
+  
+
+
+
+.main__where--map{
+  width: 100%;
+  height: 180px;
+  @media screen and (min-width: 930px){
+    height: 400px;
+    }
+}
