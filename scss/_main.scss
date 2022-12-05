@@ -28,8 +28,9 @@
 
   &__motivation{
   padding: 10px;
-  background-color: colors.$light;
-  border-radius: 10% 0 10% 10%;
+  background-color: colors.$primary;
+  color: colors.$secondary;
+  border-radius: 10px;
   margin: 20px;
   }
 
@@ -37,7 +38,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10%;
+  border-radius: 10px;
   }
 
 }
