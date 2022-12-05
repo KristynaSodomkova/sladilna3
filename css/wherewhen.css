@@ -19,6 +19,10 @@
   max-width: 100%;
 }
 
+.border {
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 930px) {
   .main__wherewhen {
     display: grid;
@@ -32,12 +36,11 @@
     grid-column: 2/3;
   }
 }
-.main__where--map {
-  width: 100%;
+.main__map {
   height: 180px;
 }
 @media screen and (min-width: 930px) {
-  .main__where--map {
+  .main__map {
     height: 400px;
   }
 }/*# sourceMappingURL=wherewhen.css.map */

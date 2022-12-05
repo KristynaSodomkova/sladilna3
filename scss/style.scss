@@ -8,12 +8,11 @@ html { box-sizing: border-box; }
 
 
 .header {
-  grid-column: 1 / 7;
   display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  
-  &__logo{
-  grid-column: 1 / 4;
+  grid-template-columns: 30% auto;
+
+  &__info p{
+    text-align: right;
   }
 
   &__menu{
@@ -24,27 +23,30 @@ html { box-sizing: border-box; }
       grid-template-columns: repeat(6, 1fr);
     }
   }
-  &__button{
-    grid-column: 8 / 12;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 18px;
-    margin: 8px;
-    background-color: colors.$primary;
-    color: colors.$secondary;
-    
-    &:active{
-      background-color: colors.$light2;
-    }
-    @media screen and (min-width: 930px){
-      display: none;
-      }
-  }
-
 }
 
 
-.footer *{
+.footerNavigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: sticky;
+  bottom: 0;
+  background-color: transparent;
+
+  @media screen and (min-width: 930px){
+    display: none;
+    }
+}
+
+.footerNavigation *{
+  align-items: center;
+  font-size: 18px;
+  margin: 1px;
+  border-radius: 10px;
   background-color: colors.$primary;
   color: colors.$secondary;
+  &:active{
+    background-color: colors.$light2;
+  }
 }
+
