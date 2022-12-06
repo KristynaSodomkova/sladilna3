@@ -36,11 +36,12 @@
     grid-column: 2/3;
   }
 }
-.main__map {
+.map {
+  width: 80vw;
   height: 180px;
 }
 @media screen and (min-width: 930px) {
-  .main__map {
+  .map {
     height: 400px;
   }
 }/*# sourceMappingURL=wherewhen.css.map */

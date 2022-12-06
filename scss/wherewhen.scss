@@ -18,7 +18,8 @@
   }
   
 
-.main__map{
+.map{
+  width: 80vw;
   height: 180px;
   @media screen and (min-width: 930px){
     height: 400px;
