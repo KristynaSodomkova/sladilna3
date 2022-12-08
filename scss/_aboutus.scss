@@ -3,5 +3,12 @@
 @use 'main';
 
 .info__text p{
-  width: 100px;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 12px;
+  margin: 10px;
+  background-color: colors.$primary;
+  color: colors.$secondary;
 }
+

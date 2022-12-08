@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*Common breakpoints are 
+/*$secondary: #fad7df;*/ /*Common breakpoints are 
 320px — 480px for mobile devices, 
 481px — 768px for iPads & tablets, 
 769px — 1024px for small screens like laptop, 
@@ -15,7 +15,7 @@
   text-align: center;
   text-decoration: none;
   color: #863764;
-  background-color: #fad7df;
+  background-color: antiquewhite;
   max-width: 100%;
 }
 

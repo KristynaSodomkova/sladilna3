@@ -2,6 +2,8 @@
 @use 'colors';
 @use 'main';
 @use 'wherewhen';
+@use 'aboutus';
+@use 'orders';
 
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
@@ -36,7 +38,7 @@ html { box-sizing: border-box; }
     align-items: center;
   font-size: 18px;
   margin: 1px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: colors.$primary;
   color: colors.$secondary;
   &:active{
