@@ -10,36 +10,27 @@ html { box-sizing: border-box; }
 .header {
   display: grid;
   grid-template-columns: 30% auto;
-
   &__info p{
     text-align: right;
     margin-right: 10px;
     & img{
       max-width: 15px;
     }
+    padding: 0.5%;
   }
-
-  &__menu{
-  display: none;
-    @media screen and (min-width: 930px) {
-      display: grid;
-      grid-column: 4 / 12;    
-      grid-template-columns: repeat(6, 1fr);
-    }
-  }
+  
 }
 
 
 .header__navigation {
   grid-column: 1/-1;
   display: grid;
+  margin: 5px;
   grid-template-columns: 1fr 1fr 1fr;
-  position: sticky;
-  bottom: 0;
   background-color: transparent;
 
   @media screen and (min-width: 930px){
-    display: none;
+    
     }
   & *{
     align-items: center;

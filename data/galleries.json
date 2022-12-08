@@ -1,0 +1,188 @@
+[
+  {
+    "name" : "Birthday",
+    "images" : [
+      {
+          "src": "./img/birthday/birthday1.jpg",
+          "alt": "banana"
+        },
+        {
+          "src": "./img/birthday/birthday2.jpg",
+          "alt": "lemons"
+        },
+        {
+          "src": "./img/birthday/birthday3.jpg",
+          "alt": "cherries"
+        },
+        {
+          "src": "./img/birthday/birthday4.jpg",
+          "alt": "orange"
+        },
+        {
+          "src": "./img/birthday/birthday5.jpg",
+          "alt": "melon"
+        }
+    ]
+  },
+  {
+    "name" : "Nonsweet",
+    "images" : [
+        {
+          "src": "./img/nonsweet/nonsweet1.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/nonsweet/nonsweet2.jpg",
+          "alt": "Mountain scene"
+        }
+    ]
+  },
+  {
+    "name" : "Seasonal",
+    "images" : [
+        {
+          "src": "./img/seasonal/seasonal1.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal2.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal3.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal4.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal5.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal6.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal7.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal8.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal9.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal10.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal11.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal12.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal13.jpg",
+          "alt": "house plant"
+        },
+        {
+          "src": "./img/seasonal/seasonal14.jpg",
+          "alt": "house plant"
+        }
+    ]
+  },
+  {
+    "name" : "Specials",
+    "images" : [
+        {
+          "src": "./img/specials/specials1.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/specials/specials2.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/specials/specials3.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/specials/specials4.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/specials/specials5.jpg",
+          "alt": "Mountain scene"
+        }
+    ]
+  },
+  {
+    "name" : "Sweets",
+    "images" : [
+        {
+          "src": "./img/sweets/sweets1.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets2.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets3.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets4.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets5.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets6.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets7.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets8.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/sweets/sweets9.jpg",
+          "alt": "Mountain scene"
+        }
+    ]
+  },
+  {
+    "name" : "Wedding",
+    "images" : [
+        {
+          "src": "./img/wedding/wedding1.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/wedding/wedding2.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/wedding/wedding3.jpg",
+          "alt": "Mountain scene"
+        },
+        {
+          "src": "./img/wedding/wedding4.jpg",
+          "alt": "Mountain scene"
+        }
+    ]
+  }
+]
