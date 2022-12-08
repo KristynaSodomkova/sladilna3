@@ -105,6 +105,10 @@ html {
 }
 .header__info p {
   text-align: right;
+  margin-right: 10px;
+}
+.header__info p img {
+  max-width: 15px;
 }
 .header__menu {
   display: none;

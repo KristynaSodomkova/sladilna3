@@ -13,6 +13,10 @@ html { box-sizing: border-box; }
 
   &__info p{
     text-align: right;
+    margin-right: 10px;
+    & img{
+      max-width: 15px;
+    }
   }
 
   &__menu{
