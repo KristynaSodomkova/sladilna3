@@ -81,11 +81,12 @@
     grid-column: 2/3;
   }
 }
-.main__map {
+.map {
+  width: 80vw;
   height: 180px;
 }
 @media screen and (min-width: 930px) {
-  .main__map {
+  .map {
     height: 400px;
   }
 }
@@ -116,7 +117,8 @@ html {
   }
 }
 
-.footerNavigation {
+.header__navigation {
+  grid-column: 1/-1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: -webkit-sticky;
@@ -125,12 +127,11 @@ html {
   background-color: transparent;
 }
 @media screen and (min-width: 930px) {
-  .footerNavigation {
+  .header__navigation {
     display: none;
   }
 }
-
-.footerNavigation * {
+.header__navigation * {
   align-items: center;
   font-size: 18px;
   margin: 1px;
@@ -138,6 +139,6 @@ html {
   background-color: #863764;
   color: #fad7df;
 }
-.footerNavigation *:active {
+.header__navigation *:active {
   background-color: #dd9add;
 }/*# sourceMappingURL=style.css.map */

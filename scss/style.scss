@@ -26,7 +26,8 @@ html { box-sizing: border-box; }
 }
 
 
-.footerNavigation {
+.header__navigation {
+  grid-column: 1/-1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: sticky;
@@ -36,10 +37,8 @@ html { box-sizing: border-box; }
   @media screen and (min-width: 930px){
     display: none;
     }
-}
-
-.footerNavigation *{
-  align-items: center;
+  & *{
+    align-items: center;
   font-size: 18px;
   margin: 1px;
   border-radius: 10px;
@@ -47,6 +46,7 @@ html { box-sizing: border-box; }
   color: colors.$secondary;
   &:active{
     background-color: colors.$light2;
+  }
   }
 }
 
