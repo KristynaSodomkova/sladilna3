@@ -1,5 +1,20 @@
 @charset "UTF-8";
-/*$secondary: #fad7df;*/ /*Common breakpoints are 
+/*$secondary: #fad7df;*/
+:root {
+  --hue:206;
+  --bkg:var(--hue) 50% 96%;
+  --text: var(--hue) 70% 9%;
+  --dark: var(--hue) 70% 3%;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(hsl(var(--text)), hsl(var(--dark)));
+}
+
+/*Common breakpoints are 
 320px — 480px for mobile devices, 
 481px — 768px for iPads & tablets, 
 769px — 1024px for small screens like laptop, 

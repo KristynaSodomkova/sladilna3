@@ -5,3 +5,18 @@ $secondary: antiquewhite;
 $light:#fbdbe1;
 $light2: #dd9add;
 $light3:#fef4f7;
+
+:root {
+  --hue:206;
+  --bkg:var(--hue) 50% 96%;
+  --text: var(--hue) 70% 9%;
+  --dark: var(--hue) 70% 3%;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items:center;
+  background: linear-gradient(hsl(var(--text)), hsl(var(--dark)));
+  
+}
