@@ -308,6 +308,12 @@ html {
   display: grid;
   grid-template-columns: 30% auto;
 }
+.header__logo {
+  padding: 10px;
+}
+.header__info {
+  padding: 10px;
+}
 .header__info p {
   text-align: right;
   margin-right: 10px;
