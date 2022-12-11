@@ -1,16 +1,20 @@
 @charset "UTF-8";
-/*$secondary: #fad7df;*/
 :root {
   --hue:206;
   --bkg:var(--hue) 50% 96%;
   --text: var(--hue) 70% 9%;
   --dark: var(--hue) 70% 3%;
+  --primary:#863764;
+  --secondary:#faebd7;
 }
 
+html[data-theme=dark] {
+  --primary: #faebd7;
+  --secondary: #863764;
+}
+
+/*$secondary: #fad7df;*/
 body {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
   background: linear-gradient(hsl(var(--text)), hsl(var(--dark)));
 }
 
@@ -29,16 +33,33 @@ body {
   font-size: 18px;
   text-align: center;
   text-decoration: none;
-  color: #863764;
-  background-color: antiquewhite;
+  color: var(--primary);
+  background-color: var(--secondary);
   max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1200px;
 }
 
 .border {
   border-radius: 10px;
 }
 
-@media screen and (min-width: 930px) {
+.social-icon {
+  transition: color 0.2s;
+}
+
+.social-icon:hover {
+  color: #dd9add;
+}
+
+.main__when {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 760px) {
   .main__wherewhen {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -55,7 +76,7 @@ body {
   width: 80vw;
   height: 180px;
 }
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 760px) {
   .map {
     height: 400px;
   }

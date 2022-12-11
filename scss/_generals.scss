@@ -26,6 +26,17 @@ $spacer: 30px;
   max-width: 100%;
 }
 
+.wrapper{
+  max-width: 1200px;
+}
 .border{
   border-radius: 10px;
+}
+
+.social-icon{
+  transition: color 0.2s;
+}
+
+.social-icon:hover {
+  color: colors.$light2;
 }

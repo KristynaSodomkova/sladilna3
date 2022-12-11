@@ -19,12 +19,13 @@ html { box-sizing: border-box; }
     padding: 10px;
   }
   &__info p{
+    font-size: 15px;
     text-align: right;
     margin-right: 10px;
     & img{
       max-width: 15px;
     }
-    padding: 0.5%;
+    padding: 0.2%;
   }
   
 }
@@ -33,23 +34,35 @@ html { box-sizing: border-box; }
 .header__navigation {
   grid-column: 1/-1;
   display: grid;
-  margin: 5px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   background-color: transparent;
+  margin-bottom: 4px;
+  box-shadow: rgba(134, 55, 100, 0.20) 0px 0px 8px;
 
   @media screen and (min-width: 930px){
     
     }
   & *{
-    align-items: center;
+  align-items: center;
   font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin: 1px;
-  border-radius: 5px;
-  background-color: colors.$primary;
-  color: colors.$secondary;
+  color: colors.$primary;
   &:active{
-    background-color: colors.$light2;
+    background-color: colors.$primary;
   }
   }
 }
 
+.header__navigation a{
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+.right-border{
+  box-shadow: 10px 0 5px -2px rgba(134, 55, 100, 0.20);
+}*/
