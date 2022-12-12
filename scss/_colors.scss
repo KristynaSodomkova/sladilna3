@@ -4,13 +4,7 @@
   --bkg:var(--hue) 50% 96%;
   --text: var(--hue) 70% 9%;
   --dark: var(--hue) 70% 3%;
-  --primary:#863764;
-  --secondary:#faebd7;
-}
 
-html[data-theme='dark'] {
-  --primary: #faebd7;
-  --secondary: #863764;
 }
 
 $primary: var(--primary);
@@ -20,7 +14,3 @@ $light:#fbdbe1;
 $light2: #dd9add;
 $light3:#fef4f7;
 
-body {
-  background: linear-gradient(hsl(var(--text)), hsl(var(--dark)));
-  
-}

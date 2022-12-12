@@ -38,10 +38,6 @@ body {
   max-width: 100%;
 }
 
-.wrapper {
-  max-width: 1200px;
-}
-
 .border {
   border-radius: 10px;
 }

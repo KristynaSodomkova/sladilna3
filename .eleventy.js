@@ -4,8 +4,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   // Zkopírovat css/ to _site/css/
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("data");
   eleventyConfig.addPassthroughCopy("index.js");
-  eleventyConfig.addPassthroughCopy("createGallery.js");
   
   return {
       // možné formáty šablon

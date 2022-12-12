@@ -1,6 +1,7 @@
 @use 'generals';
 @use 'colors';
 @use 'main';
+@use 'galleries';
 @use 'wherewhen';
 @use 'aboutus';
 @use 'orders';
@@ -62,7 +63,3 @@ html { box-sizing: border-box; }
   align-items: center;
 }
 
-/*
-.right-border{
-  box-shadow: 10px 0 5px -2px rgba(134, 55, 100, 0.20);
-}*/
