@@ -125,6 +125,12 @@
   margin: 20px;
 }
 
+.social-icon {
+  position: -webkit-sticky;
+  position: sticky;
+  right: 50px;
+}
+
 .galleries__container {
   padding: 10px;
   display: grid;
