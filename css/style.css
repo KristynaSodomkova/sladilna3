@@ -77,7 +77,15 @@
     gap: 10px;
   }
   .main__wherewhen .main__when {
+    margin-top: 50%;
     grid-column: 1/2;
+    font-size: 30px;
+  }
+  .main__wherewhen .main__when p {
+    font-size: 35px;
+  }
+  .main__wherewhen .main__when p strong {
+    font-size: 30px;
   }
   .main__wherewhen .main__where {
     grid-column: 2/3;
@@ -108,7 +116,7 @@
 }
 
 .orders__container {
-  background-image: url("/img/macaroons1.jpg");
+  background-image: url("/img/baking2.jpg");
   background-size: cover;
 }
 

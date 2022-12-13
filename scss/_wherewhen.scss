@@ -17,7 +17,15 @@
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     .main__when{
+      margin-top: 50%;
       grid-column: 1/2;
+      font-size: 30px;
+      & p{
+        font-size: 35px;
+        & strong{
+          font-size: 30px;
+        }
+      }
     }
     .main__where{
       grid-column: 2/3;
