@@ -89,8 +89,16 @@
 .orders__container--cover * {
   background-color: transparent;
   position: center;
-  padding-top: 70px;
+}
+
+.orders__info1 {
+  padding-top: 60px;
+}
+
+.orders__info2 {
+  padding-top: 60px;
   padding-bottom: 120px;
+  font-size: 13px;
 }
 
 .main {
@@ -313,4 +321,9 @@ html {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  font-size: 12px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
