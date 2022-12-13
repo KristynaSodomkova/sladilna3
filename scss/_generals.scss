@@ -31,10 +31,22 @@ $spacer: 30px;
   border-radius: 10px;
 }
 
-.social-icon{
+
+.fb{
   background-color: none;
   position: fixed;
   top: 70%;
+  border-radius: 50%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.inst{
+  background-color: none;
+  position: fixed;
+  top: 73%;
   border-radius: 50%;
   right: 5px;
   -webkit-transform: translateY(-50%);
