@@ -8,7 +8,17 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+.wrapper-bigger{
+  background-color: #e7c5e780;
+}
 
+.wrapper {
+  box-shadow: rgba(134, 55, 100, 0.20) 0px 0px 8px;
+  @media screen and (min-width: 1200px){
+    max-width: 1200px;
+    margin: auto;
+  }
+}
 .header {
   display: grid;
   grid-template-columns: 30% auto;
@@ -17,12 +27,20 @@ html { box-sizing: border-box; }
   }
   &__info{
     padding: 10px;
-
+    @media screen and (min-width: 600px){
+      margin: 25px;
+    }
+    @media screen and (min-width: 800px){
+      margin: 30px;
+    }
   }
   &__info p{
     font-size: 15px;
     text-align: right;
     margin-right: 10px;
+    @media screen and (min-width: 800px){
+      margin: 10px;
+    }
     & img{
       max-width: 15px;
     }
@@ -48,7 +66,7 @@ html { box-sizing: border-box; }
   margin: 1px;
   color: colors.$primary;
   &:active{
-    background-color: colors.$primary;
+    background-color: #e7c5e760;
   }
   }
 }
