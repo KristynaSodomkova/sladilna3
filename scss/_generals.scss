@@ -22,7 +22,7 @@ $spacer: 30px;
   text-align: center;
   text-decoration: none;
   color: colors.$primary;
-  background-color: colors.$secondary;
+  //background-color: colors.$secondary;
   max-width: 100%;
 }
 
@@ -32,9 +32,21 @@ $spacer: 30px;
 }
 
 .social-icon{
-  transition: color 0.2s;
+  background-color: none;
+  position: fixed;
+  top: 70%;
+  border-radius: 50%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-
-.social-icon:hover {
-  color: colors.$light2;
+.social-icon a{
+  background-color: none;
+  min-width: 150px;
+}
+.social-icon a img{
+  background-color: none;
+  border-radius: 50%;
+  
 }

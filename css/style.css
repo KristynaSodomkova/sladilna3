@@ -25,7 +25,6 @@
   text-align: center;
   text-decoration: none;
   color: var(--primary);
-  background-color: var(--secondary);
   max-width: 100%;
 }
 
@@ -34,11 +33,22 @@
 }
 
 .social-icon {
-  transition: color 0.2s;
+  background-color: none;
+  position: fixed;
+  top: 70%;
+  border-radius: 50%;
+  right: 5px;
+  transform: translateY(-50%);
 }
 
-.social-icon:hover {
-  color: #dd9add;
+.social-icon a {
+  background-color: none;
+  min-width: 150px;
+}
+
+.social-icon a img {
+  background-color: none;
+  border-radius: 50%;
 }
 
 .main__when {
@@ -123,12 +133,6 @@
   box-shadow: rgba(134, 55, 100, 0.2) 0px 0px 8px;
   border-radius: 5px;
   margin: 20px;
-}
-
-.social-icon {
-  position: -webkit-sticky;
-  position: sticky;
-  right: 50px;
 }
 
 .galleries__container {
