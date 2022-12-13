@@ -64,12 +64,17 @@
   margin-top: 50px;
   margin-bottom: 25px;
 }
+.main__when p {
+  font-size: 20px;
+}
 
 @media screen and (min-width: 760px) {
   .main__wherewhen {
+    margin: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 10px;
   }
   .main__wherewhen .main__when {
     grid-column: 1/2;
@@ -78,7 +83,12 @@
     grid-column: 2/3;
   }
 }
+.main__gif {
+  width: 80vw;
+}
+
 .map {
+  margin-top: 15px;
   width: 80vw;
   height: 180px;
 }
