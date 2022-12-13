@@ -1,14 +1,14 @@
 @use 'generals';
 @use 'colors';
-@use 'galleries';
 @use 'wherewhen';
 @use 'aboutus';
 @use 'orders';
 
 .main{
   grid-column: 1/7;
+}
 
-  &__image{
+.main__image{
   background-image: url("/img/chocoraspberrycloseup.png");
   background-size: cover;
   height: 300px;
@@ -17,16 +17,16 @@
     background-size: cover;
     height: 500px;
     }
-  }
+}
 
-  &__motivation{
+.main__motivation{
   padding: 10px;
   box-shadow: rgba(134, 55, 100, 0.20) 0px 0px 8px;
   border-radius: 5px;
   margin: 20px;
+
   }
 
-}
 
 .galleries__container{
   padding: 10px;

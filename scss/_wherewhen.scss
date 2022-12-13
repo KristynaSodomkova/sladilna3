@@ -5,6 +5,7 @@
   margin-top: 50px;
   margin-bottom: 25px;
 }
+
 @media screen and (min-width: 760px){
   .main__wherewhen{
     display: grid;
@@ -17,8 +18,7 @@
       grid-column: 2/3;
     }
   }
-  
-  }
+}
   
 
 .map{
