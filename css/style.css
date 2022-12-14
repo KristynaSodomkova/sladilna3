@@ -315,6 +315,10 @@ html {
   box-sizing: inherit;
 }
 
+.wrapper-bigger {
+  background-color: rgba(231, 197, 231, 0.5019607843);
+}
+
 .wrapper {
   box-shadow: rgba(134, 55, 100, 0.2) 0px 0px 8px;
 }
