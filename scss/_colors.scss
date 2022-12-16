@@ -6,6 +6,12 @@
   --dark: var(--hue) 70% 3%;
   --primary:#863764;
   --secondary: antiquewhite;
+  --darkbkg:rgb(34, 34, 34);
+}
+
+
+html[data-theme='dark'] {
+  --secondary: rgb(34, 34, 34);
 }
 
 $primary: var(--primary);
@@ -15,3 +21,5 @@ $light:#fbdbe1;
 $light2: #dd9add;
 $light3:#fef4f7;
 $light4: #e7c5e7;
+$backgroundpink: #e7c5e780;
+
