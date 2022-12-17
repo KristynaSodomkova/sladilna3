@@ -372,11 +372,6 @@ html {
   max-width: 15px;
 }
 
-.social-media img {
-  border: solid;
-  width: 50px;
-}
-
 .header__navigation {
   grid-column: 1/-1;
   display: grid;
