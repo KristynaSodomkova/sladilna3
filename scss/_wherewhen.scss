@@ -3,7 +3,7 @@
 
 .main__when{
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   & p{
     font-size: 20px;
   }
@@ -39,7 +39,7 @@
 }
 
 .map{
-  margin-top: 15px;
+  margin-top: 40px;
   width: 80vw;
   height: 180px;
   @media screen and (min-width: 760px){
