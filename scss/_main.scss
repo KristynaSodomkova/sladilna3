@@ -68,8 +68,11 @@
   bottom: 0;
   inset: 0;
   background-color: hsl(var(--dark) / .8);
-  display: grid;
-  place-items: center;
+  //display: grid;
+  //place-items: center;
+  display: flex; //moje
+  justify-content: center; //moje
+  align-items: center; //moje
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms ease-in-out;
@@ -85,8 +88,8 @@
   margin: 2rem;
   max-width: 900px;
   width: 100%;
-  display: grid;
-  place-items: center;
+  //display: grid;
+  //place-items: center;
   overflow: hidden;
   box-shadow: 0px 2px 40px hsl(var(--dark));
   z-index: 6;/*moje*/
@@ -109,15 +112,19 @@
   z-index: 4;
   bottom: 0;
   display: grid;
-  gap: 7px;
+  place-items: center;
+  //gap: 7px;
 }
 
 .modal__btn-container {
-  display: flex;
+  //display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
   gap: 1rem;
-  justify-content: center;
   position: fixed; /*moje*/
   bottom: 0; /*moje*/
+  justify-content: center;
 }
 
 .modal__btn {
@@ -156,6 +163,7 @@
   gap: 1rem;
   position: fixed; /*moje*/
   bottom: 70px; /*moje*/
+  
 }
    
 .modal__indicator {
