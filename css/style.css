@@ -372,6 +372,21 @@ html {
   max-width: 15px;
 }
 
+.social-media {
+  display: none;
+  z-index: 7;
+}
+@media screen and (max-width: 1200px) {
+  .social-media {
+    max-width: 40px;
+    position: fixed;
+    right: 10px;
+    top: 40vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
 .header__navigation {
   grid-column: 1/-1;
   display: grid;
@@ -402,4 +417,23 @@ html {
 footer {
   font-size: 12px;
   padding: 10px;
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.social-media-footer {
+  max-width: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+@media screen and (max-width: 1200px) {
+  .social-media-footer {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

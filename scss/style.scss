@@ -50,6 +50,19 @@ html { box-sizing: border-box; }
   
 }
 
+.social-media{
+  display: none;
+  z-index: 7;
+  @media screen and (max-width: 1200px){
+    max-width: 40px;
+    position: fixed;
+    right: 10px;
+    top: 40vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
 
 
 .header__navigation {
@@ -83,4 +96,20 @@ html { box-sizing: border-box; }
 footer{
   font-size: 12px;
   padding: 10px;
+  @media screen and (min-width: 1200px){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.social-media-footer{
+  max-width: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  @media screen and (max-width: 1200px){
+    display: none;
+  }
+  
 }
