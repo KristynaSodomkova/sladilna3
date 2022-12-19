@@ -9,13 +9,6 @@
   --darkbkg:rgb(34, 34, 34);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary:#863764;
-    --secondary: rgb(34, 34, 34);
-  }
-}
-
 
 $primary: var(--primary);
 /*$secondary: #fad7df;*/

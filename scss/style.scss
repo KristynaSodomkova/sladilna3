@@ -11,12 +11,15 @@ html { box-sizing: border-box; }
 .wrapper-bigger{
   background-color: #e7c5e780;
 }
+
+/*
 @media (prefers-color-scheme: dark) {
   .wrapper-bigger{
-    background-color: rgb(34, 34, 34);
+    background-color: black;
   }
   
 }
+*/
 
 .wrapper {
   //background-color: colors.$secondary;
@@ -85,7 +88,7 @@ html { box-sizing: border-box; }
   padding-top: 8px;
   padding-bottom: 8px;
   margin: 1px;
-  color: colors.$primary;
+  //color: colors.$primary;
   &:active{
     background-color: #e7c5e760;
   }
