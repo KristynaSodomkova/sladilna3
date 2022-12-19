@@ -11,6 +11,12 @@ html { box-sizing: border-box; }
 .wrapper-bigger{
   background-color: #e7c5e780;
 }
+@media (prefers-color-scheme: dark) {
+  .wrapper-bigger{
+    background-color: rgb(34, 34, 34);
+  }
+  
+}
 
 .wrapper {
   //background-color: colors.$secondary;
