@@ -9,10 +9,12 @@
   --darkbkg:rgb(34, 34, 34);
 }
 
-html[data-theme=dark] {
-  --secondary: rgb(34, 34, 34);
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary:#863764;
+    --secondary: rgb(34, 34, 34);
+  }
 }
-
 /*$secondary: #fad7df;*/
 /*Common breakpoints are 
 320px — 480px for mobile devices, 
