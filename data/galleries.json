@@ -4,23 +4,131 @@
     "images" : [
       {
           "src": "./img/birthday/birthday1.jpg",
-          "alt": "banana"
+          "alt": "cake"
         },
         {
           "src": "./img/birthday/birthday2.jpg",
-          "alt": "lemons"
+          "alt": "cake"
         },
         {
           "src": "./img/birthday/birthday3.jpg",
-          "alt": "cherries"
+          "alt": "cake"
         },
         {
           "src": "./img/birthday/birthday4.jpg",
-          "alt": "orange"
+          "alt": "cake"
         },
         {
           "src": "./img/birthday/birthday5.jpg",
-          "alt": "melon"
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday6.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday7.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday8.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday9.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday10.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday11.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday12.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday13.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday14.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday15.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday16.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday17.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday18.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday19.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday20.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday21.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday22.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday23.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday24.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday25.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday26.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday27.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday28.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday29.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday30.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday31.jpg",
+          "alt": "cake"
+        },
+        {
+          "src": "./img/birthday/birthday32.jpg",
+          "alt": "cake"
         }
     ]
   },
@@ -29,11 +137,11 @@
     "images" : [
         {
           "src": "./img/nonsweet/nonsweet1.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/nonsweet/nonsweet2.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         }
     ]
   },
@@ -42,59 +150,59 @@
     "images" : [
         {
           "src": "./img/seasonal/seasonal1.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal2.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal3.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal4.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal5.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal6.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal7.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal8.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal9.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal10.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal11.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal12.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal13.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         },
         {
           "src": "./img/seasonal/seasonal14.jpg",
-          "alt": "house plant"
+          "alt": "cake"
         }
     ]
   },
@@ -103,23 +211,23 @@
     "images" : [
         {
           "src": "./img/specials/specials1.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/specials/specials2.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/specials/specials3.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/specials/specials4.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/specials/specials5.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         }
     ]
   },
@@ -128,39 +236,39 @@
     "images" : [
         {
           "src": "./img/sweets/sweets1.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets2.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets3.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets4.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets5.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets6.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets7.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets8.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/sweets/sweets9.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         }
     ]
   },
@@ -169,19 +277,19 @@
     "images" : [
         {
           "src": "./img/wedding/wedding1.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/wedding/wedding2.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/wedding/wedding3.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         },
         {
           "src": "./img/wedding/wedding4.jpg",
-          "alt": "Mountain scene"
+          "alt": "cake"
         }
     ]
   }
