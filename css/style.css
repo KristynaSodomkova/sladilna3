@@ -393,7 +393,7 @@ html {
 .header__navigation {
   grid-column: 1/-1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   background-color: transparent;
   margin-bottom: 4px;
   box-shadow: rgba(134, 55, 100, 0.2) 0px 0px 8px;
