@@ -230,8 +230,7 @@
 
 .modal__image {
   aspect-ratio: 16/10;
-  -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: contain;
 }
 
 .modal__overlay {

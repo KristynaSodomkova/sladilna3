@@ -98,7 +98,12 @@
 
 .modal__image {
   aspect-ratio: 16/10;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.modal__image img{
+  aspect-ratio: 16/10;
+  object-fit: scale-down;
 }
     
 .modal__overlay {
